@@ -1,15 +1,17 @@
-import Footer from "../widgets/LayoutFooter/Footer";
+import ThemeSwitcher from "../features/ThemeSwitcher/ui/ThemeSwitcher";
 import Header from "../widgets/LayoutHeader/Header";
 import PostList from "../widgets/PostList/PostList";
+import Footer from "../widgets/LayoutFooter/Footer";
 import "./../App.css";
 
 function App() {
   return (
-    <div>
+    <>
+      <ThemeSwitcher />
       <Header />
       <PostList />
       <Footer />
-    </div>
+    </>
   );
 }
 
